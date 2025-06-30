@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mente Premiada - O Desafio!</title>
+    
+    <link rel="stylesheet" href="style.css"> 
+    
+    <link rel="stylesheet" href="jogo.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="game-container">
+
+        <div class="game-header">
+            <div class="hud-item">
+                <p class="hud-prefix">Pergunta</p>
+                <h1 class="hud-main-text" id="question-counter">1/10</h1>
+            </div>
+            <div class="hud-item">
+                <p class="hud-prefix">Pontos</p>
+                <h1 class="hud-main-text" id="score">0</h1>
+            </div>
+        </div>
+
+        <div id="question-container">
+            <h2 id="question-text">Qual é a cor do céu em um dia limpo?</h2>
+        </div>
+
+        <div id="answer-buttons-container">
+            <button class="answer-btn">Azul</button>
+            <button class="answer-btn">Verde</button>
+            <button class="answer-btn">Vermelho</button>
+            <button class="answer-btn">Amarelo</button>
+        </div>
+        
+    </div>
+
+    <script src="jogo.js"></script>
+</body>
+</html>
